@@ -145,7 +145,7 @@ return field_dict
     {% if property.required %}
         {% set property_source = 'd.pop("' + property.name + '")' %}
     {% else %}
-        {% set property_source = 'd.pop("' + property.name + '", UNSET)' %}
+        {% set property_source = 'd.pop("' + property.name + '", UNSET) or UNSET' %}
     {% endif %}
     {% import "property_templates/" + property.template as prop_template %}
     {% if prop_template.construct %}
