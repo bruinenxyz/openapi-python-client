@@ -21,7 +21,7 @@ from .config import Config
 from .parser import GeneratorData, import_string_from_class
 from .parser.errors import ErrorLevel, GeneratorError
 
-__version__ = version(__package__)
+__version__ = "0.1.0"
 
 
 class MetaType(str, Enum):
