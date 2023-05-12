@@ -8,6 +8,8 @@
 
 # openapi-python-client
 
+# BRUINEN OFFSHOOT
+
 Generate modern Python clients from OpenAPI 3.x documents.
 
 _This generator does not support OpenAPI 2.x FKA Swagger. If you need to use an older document, try upgrading it to
